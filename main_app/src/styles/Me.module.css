@@ -1,0 +1,26 @@
+.me_contents {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.my_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 959px) {
+}
+@media screen and (max-width: 480px) {
+  .main_thumbnail {
+    height: 50vh;
+  }
+  
+  .main_thumbnail__image {
+    height: 50vh;
+  }
+}

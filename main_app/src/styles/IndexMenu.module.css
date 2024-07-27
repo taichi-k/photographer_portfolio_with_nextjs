@@ -1,0 +1,25 @@
+.index_menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    color: black;
+}
+
+.my_name {
+  font-family: Avenir;
+  font-size: 30px;
+  z-index: 100;
+  margin-bottom: 1rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.menu_item {
+    display: inline-block;
+}

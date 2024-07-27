@@ -1,0 +1,36 @@
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 4%;
+    gap: 4vw 5%;
+}
+
+.image_button {
+    width: 30%;
+}
+
+@media screen and (max-width: 959px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 70px 7.5%;
+        gap: 4vw 5%;
+    }
+
+    .image_button {
+        width: 47.5%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 6%;
+        gap: 50px 5vw;
+    }
+
+    .image_button {
+        width: 100%;
+    }
+}
