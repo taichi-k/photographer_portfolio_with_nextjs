@@ -1,0 +1,25 @@
+.description {
+  color: #111;
+  width: 100%;
+  text-align: center;
+  text-align: justify;
+  padding: 5vw 20% 0 20%;
+}
+
+.description span {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 959px) {
+  .description {
+    padding: 5vw 15% 0 15%;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 480px) {
+  .description {
+    padding: 40px 10% 0 10%;
+    text-align: justify;
+  }
+}
