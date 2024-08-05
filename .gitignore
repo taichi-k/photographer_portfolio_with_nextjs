@@ -36,6 +36,5 @@
 /main_app/*.tsbuildinfo
 /main_app/next-env.d.ts
 
-
 /contents_manager/__pycache__/
 /contents_manager/_.js
