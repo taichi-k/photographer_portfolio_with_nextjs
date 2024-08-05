@@ -45,12 +45,14 @@ if YEAR:
     works.append({
         "title": TITLE, 
         "id": ID,
-        "year": YEAR
+        "year": YEAR,
+        "description": ""
     })
 else:
     works.append({
         "title": TITLE, 
-        "id": ID
+        "id": ID,
+        "description": ""
     })
 
 with open(JSON_PATH, 'w') as f:

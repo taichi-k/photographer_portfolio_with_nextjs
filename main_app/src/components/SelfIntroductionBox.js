@@ -7,21 +7,21 @@ export default function SelfIntroductionBox(props) {
     <div className={`${styles.self_introduction_box} ${shipporiMincho.className}`}>
       <div>
         <p className={styles.sentence}>
-          人の写真を撮ります。
+          関東を拠点に、人の写真を撮っています。
         </p>
         <br/>
         <p className={styles.sentence}>
           ・ポートレート<br/>
           ・イベント撮影<br/>
-          ・ロケーション撮影
+          ・出張撮影
         </p>
         <br/>
         <p className={styles.sentence}>
-          ご依頼・ご相談の際はお気軽にご連絡ください。
+          ご依頼・ご質問はお気軽にご連絡ください。
         </p>
         <p className={`${styles.sentence} ${styles.contacts}`}>
           <Link href="https://instagram.com/taichi_1219" target="_blank">Instagram</Link>{", "}
-          no3b1219@gmail.com
+          no3b1219[at]gmail.com
         </p>
       </div>
 

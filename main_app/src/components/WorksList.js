@@ -9,10 +9,11 @@ export default function WorksList(props) {
       return (
         <Link key={index} href={`work/${work.id}`} className={styles.main_thumbnail__anchor}>
           <MainThumbnail
-            image_path={`/thumbnail/${work.id}.jpg`}
-            image_alt={work.title}
+            imagePath={`/thumbnail/${work.id}.jpg`}
+            imageAlt={work.title}
             title={work.title}
             year={work.year ? `${work.year}` : null}
+            blackTitle={work.blackTitle}
           />
         </Link> 
       )

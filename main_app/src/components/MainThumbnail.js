@@ -5,11 +5,14 @@ export default function MainThumbnail(props) {
     <div className={styles.main_thumbnail__anchor}>
       <div className={styles.main_thumbnail}>
         <img
-          src={props.image_path}
-          alt={props.image_alt}
+          src={props.imagePath}
+          alt={props.imageAlt}
           className={styles.main_thumbnail__image}
         />
-        <p className={styles.main_thumbnail__title}>
+        <p className={`
+          ${styles.main_thumbnail__title}
+          ${props.blackTitle ? styles["main_thumbnail__title--black"] : styles["main_thumbnail__title--white"]}`}
+        >
           {props.title}{props.year ? `（${props.year}）` : ""}
         </p>
       </div>

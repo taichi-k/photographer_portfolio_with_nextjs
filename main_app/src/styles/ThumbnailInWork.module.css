@@ -13,9 +13,16 @@
 
 .thumbnail_in_work__title {
   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  padding: 0.3rem 0.9rem;
+  width: fit-content;
+  max-width: 80%;
+  font-family: Avenir;
+  transform: translate(-50%,-50%);
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  border-radius: 1px;
 }
 
 @media screen and (max-width: 959px) {
@@ -27,5 +34,9 @@
   
   .thumbnail_in_work__image {
     height: 40vh;
+  }
+
+  .thumbnail_in_work__title {
+    padding: 0.2rem 0.6rem;
   }
 }

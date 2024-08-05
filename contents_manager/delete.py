@@ -31,7 +31,7 @@ with open(JSON_PATH, "r") as f:
 works = [work for work in works if work["id"] != ID]
 
 with open(JSON_PATH, 'w') as f:
-    json.dump(works, f, indent=2)
+    json.dump(works, f, indent=2, ensure_ascii=False)
 
 
 print("Completed.")

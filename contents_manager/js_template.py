@@ -46,7 +46,7 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      filePaths: filePaths
+      filePaths: filePaths.sort()
     }
   };
 };

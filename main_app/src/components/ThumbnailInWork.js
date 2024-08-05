@@ -1,4 +1,5 @@
 import styles from "@/src/styles/ThumbnailInWork.module.css";
+import { shipporiMincho } from "@/src/utils/fonts";
 
 export default function ThumbnailInWork(props) {
   return (

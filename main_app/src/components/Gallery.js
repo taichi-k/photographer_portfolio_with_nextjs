@@ -31,10 +31,8 @@ export default function Gallery(props) {
   }
 
   useEffect(() => {
-    console.log("Gallery読み込み")
     createImageView();
     return () => {
-      console.log("Gallery消えました")
       removeImageView();
     }
   }, [])
