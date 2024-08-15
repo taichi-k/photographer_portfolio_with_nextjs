@@ -4,7 +4,7 @@ import { shipporiMincho } from "@/src/utils/fonts";
 
 export default function SelfIntroductionBox(props) {
   return (
-    <div className={`${styles.self_introduction_box} ${shipporiMincho.className}`}>
+    <div className={`${styles.self_introduction_box} ${shipporiMincho.className} fadeIn1`}>
       <div>
         <p className={styles.sentence}>
           関東を拠点に、人の写真を撮っています。

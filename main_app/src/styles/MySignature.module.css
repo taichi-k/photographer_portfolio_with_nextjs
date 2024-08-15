@@ -1,0 +1,8 @@
+.my_signature {
+    display: flex;
+    align-items: center; /* 垂直方向の中央寄せ */
+}
+
+.my_signature img {
+    width: 100%;
+}

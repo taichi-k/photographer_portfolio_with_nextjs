@@ -14,7 +14,8 @@
 }
 
 .header__logo {
-  width: 50%;
+  width: 11rem;
+  /* height: 100%; */
   margin-right: auto;
 }
 

@@ -1,14 +1,13 @@
 import styles from "@/src/styles/Header.module.css";
 import Link from "next/link";
+import HeaderLogo from "./HeaderLogo";
 
 export default function Header(props) {
   const MENU_ITEMS = ["Works", "Me"]
 
   return (
     <div className={styles.header}>
-      <div className={styles.header__logo}>
-        <Link href="/">Taichi Kosugi</Link>
-      </div>
+      <HeaderLogo></HeaderLogo>
       <div className={styles.menu}>
         <ul>
           {MENU_ITEMS.map((menuItem, index) => {

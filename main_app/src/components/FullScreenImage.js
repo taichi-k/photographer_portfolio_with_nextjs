@@ -8,7 +8,7 @@ export default function FullScreenImage(props) {
   }
 
   return (
-    <div className={styles.fixed_wrapper} id="fullScreenImage" onClick={removeSelf}>
+    <div className={`${styles.fixed_wrapper} quickFadeIn`} id="fullScreenImage" onClick={removeSelf}>
       <div className={styles.relative_wrapper}>
         <img
           src={props.fileName}

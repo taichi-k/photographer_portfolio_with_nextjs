@@ -3,7 +3,7 @@ import { shipporiMincho } from "@/src/utils/fonts";
 
 export default function ThumbnailInWork(props) {
   return (
-      <div className={styles.thumbnail_in_work}>
+      <div className={`${styles.thumbnail_in_work} fadeIn1`}>
         <img
           src={props.image_path}
           alt={props.image_alt}

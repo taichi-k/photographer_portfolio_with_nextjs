@@ -3,7 +3,7 @@
   width: 100%;
   text-align: center;
   text-align: justify;
-  padding: 5vw 20% 0 20%;
+  padding: 60px 20% 0 20%;
 }
 
 .description span {
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 959px) {
   .description {
-    padding: 5vw 15% 0 15%;
+    padding: 65px 15% 0 15%;
     text-align: left;
   }
 }
