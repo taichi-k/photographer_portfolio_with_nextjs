@@ -6,7 +6,7 @@ export default function WorkDescription(props) {
 
   return (
     props.description ? 
-      <div className={`${styles.description} ${shipporiMincho.className}`}>
+      <div className={`${styles.description} ${shipporiMincho.className} fadeIn1`}>
         {props.description.split(/(\n)/).map((item, index) => {
           return (
             <React.Fragment key={index}>

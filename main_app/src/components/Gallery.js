@@ -41,7 +41,7 @@ export default function Gallery(props) {
     <div className={styles.gallery}>
       {props.fileNames.map((fileName, index) => {
         return (
-          <button key={index} onClick={showImage} className={styles.image_button}>
+          <button key={index} onClick={showImage} className={`${styles.image_button} fadeIn1`}>
             <GalleryImage
               fileName={fileName}
             />
