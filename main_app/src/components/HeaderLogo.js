@@ -6,8 +6,8 @@ export default function HeaderLogo(props) {
   return (
     <div className={styles.header__logo}>
       <Link href="/">
-        Taichi Kosugi
-        {/* <MySignature></MySignature> */}
+        {/* Taichi Kosugi */}
+        <MySignature></MySignature>
       </Link>
     </div>
   );
